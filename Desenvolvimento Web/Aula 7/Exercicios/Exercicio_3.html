@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exercícios de Desenvolvimento Web</title>
+        <meta charset="utf-8">
+        <style>
+            p {
+                animation-duration: 5s;
+                animation-name: transicao;
+            }
+            @keyframes transicao {
+                from{
+                    margin-left: 100%;
+                    width: 300%;
+                }
+                to {
+                    margin-left: 0%;
+                    width: 100%;
+                }
+            }
+            h1 {
+                animation-duration: 2s;
+                animation-name: transicao2;
+            }
+            @keyframes transicao2 {
+                from{
+                    margin-left: 40%;
+                    width: 300%; 
+                }
+                to {
+                    margin-left: 0%;
+                    width: 100%;
+                }
+            }
+            div {
+                width: 600px;
+                height: 300px;
+                background-color: red;
+                animation-name: cores;
+                animation-duration: 10s;
+                }
+            @keyframes cores {
+            from {background-color: rgb(1, 236, 72);}
+            to {background-color: rgb(255, 0, 170);}
+        }
+        </style>
+    </head>
+    <body>
+        <p>eai manos</p>
+        <p>Estou deslizando da esquerda</p>
+        <p>legal né?</p>
+        <h1>agora diferente</h1>
+        <div></div>
+    </body>
+</html>

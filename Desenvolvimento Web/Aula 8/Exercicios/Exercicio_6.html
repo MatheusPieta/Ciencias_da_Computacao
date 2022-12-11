@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exercícios de Desenvolvimento Web</title>
+        <meta charset="utf-8">
+        <style>
+            div#um {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: cores;
+                animation-duration: 10s;
+                transform: rotate(45deg);
+				transition-duration: 2s;
+				background-repeat: no-repeat;
+				transition-property: background-size, transform;
+                left:50%;
+	            top:50%;
+                }
+			div#dois {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-color: rgb(228, 1, 107);
+                animation-name: cores;
+                animation-duration: 10s;
+                transform: rotate(45deg);
+				transition-duration: 2s;
+				background-repeat: no-repeat;
+				transition-property: background-size, transform;
+                left:30%;
+	            top:30%;
+                }
+			div#tres {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-color: rgb(15, 13, 13);
+                animation-name: cores;
+                animation-duration: 10s;
+                transform: rotate(45deg);
+				transition-duration: 2s;
+				background-repeat: no-repeat;
+				transition-property: background-size, transform;
+                left:70%;
+	            top:70%;
+                }
+			div#um:hover {
+				transform: scale(2,2);
+			}
+			div#dois:hover {
+				transform: scale(2,2);
+			}
+			div#tres:hover {
+				transform: scale(2,2);
+			}
+        </style>
+    </head>
+    <body>
+		<div id="um">oi pessoal</div>
+		<div id="dois">oi pessoal</div>
+		<div id="tres">oi pessoal</div>
+    </body>
+</html>

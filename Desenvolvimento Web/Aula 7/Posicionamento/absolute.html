@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>position:absolute</title>
+	<style>
+* {
+	margin: 0;
+}
+header, main {
+	width: 50%;
+	background-color: white; /* Comente esta linha e veja a diferença!*/
+}
+main {
+	position: absolute;
+	top: 0;
+	/* z-index: -1; */ /* Descomente esta linha e veja a diferença! */
+}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Primeiro bloco!</h1>
+	</header>
+	<main>
+		<h1>Segundo bloco sobrepondo o primeiro!</h1>
+		<img src="https://cecom.ifc.edu.br/wp-content/uploads/sites/17/2015/10/Logo_IFC_vertical.png" alt="Logo do IFC">
+	</main>
+</body>
+</html>
